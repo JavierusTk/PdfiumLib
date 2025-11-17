@@ -1422,7 +1422,7 @@ begin
   FFormFieldHighlightColor := $FFE4DD;
   FFormFieldHighlightAlpha := 100;
   FPrintHidesFormFieldHighlight := True;
-
+  PDFiumDllFileName:=ExtractFilepath(Paramstr(0))+'\maxpdfium.dll';
   InitLib;
 end;
 
