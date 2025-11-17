@@ -9354,7 +9354,7 @@ end;
 procedure InitPDFiumEx(const DllFileName: string);
 var
   I: Integer;
-  Path: string;
+//Path: string;
   LibraryConfig: FPDF_LIBRARY_CONFIG;
 begin
   if PdfiumModule <> 0 then
